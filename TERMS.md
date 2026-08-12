@@ -42,9 +42,10 @@ You must be at least 16 years old to use the service.
 You need your own Öura account and ring. Your use of Öura is governed by Öura's own terms and
 privacy policy, not these.
 
-You grant Cornerstone Health permission to read the `personal` and `daily` scopes from your
-Öura account. That access is **read-only** — the service never modifies anything in your Öura
-account. You can revoke it at any time from Öura's connected-applications page.
+You grant Cornerstone Health permission to read the Öura scopes listed on the consent screen
+and enumerated in the [Privacy Policy](PRIVACY.md). That access is **read-only** — the service
+never modifies anything in your Öura account. You can revoke it at any time from Öura's
+connected-applications page.
 
 ## Your data
 

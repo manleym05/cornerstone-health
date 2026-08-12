@@ -16,18 +16,31 @@ Cornerstone Health is an individual's personal project, not a company. Contact:
 
 ## What we collect
 
-**From your Öura account, with your explicit consent, we request two permission scopes:**
+**From your Öura account, with your explicit consent, the application is registered for the
+following permission scopes:**
 
-| Scope | What it grants | What we actually read |
-|---|---|---|
-| `personal` | Basic profile information | Used to associate your data with your account |
-| `daily` | Daily summary metrics | Readiness score, sleep score, HRV balance, resting heart rate |
+| Scope | What it grants |
+|---|---|
+| `personal` | Basic profile information, used to associate data with your account |
+| `daily` | Daily summary metrics — readiness score, sleep score, HRV balance, resting heart rate |
+| `heartrate` | Heart-rate measurements |
+| `workout` | Recorded workouts |
+| `session` | Guided and unguided sessions |
+| `spo2` | Blood-oxygen measurements |
+| `stress` | Daily stress summaries |
+| `heart_health` | Cardiovascular-age and vascular-age metrics |
+| `tag` | Tags you have added in the Öura app |
 
-For each day, we store a single record containing: the date, readiness score, sleep score,
-HRV balance, resting heart rate, and the time the record was retrieved.
+These scopes support the metrics shown on the dashboard. You see the exact list on Öura's
+consent screen before you approve anything, and you can decline or revoke at any time.
 
-**We do not request, receive, or store:** heart-rate detail, workouts, tags, sessions, SpO2,
-stress, heart-health, ring configuration, or your email address from Öura.
+**We do not request:** your email address from Öura, or your ring configuration.
+
+**What is stored today.** The service currently retrieves and stores one record per day
+containing the date, readiness score, sleep score, HRV balance, resting heart rate, and the
+time the record was retrieved. As dashboard features are added, additional metrics from the
+scopes above may be stored; this policy will be updated at the same time, and the date at the
+top will change.
 
 **From your use of the service, we store:** your account identifier, email address, and
 password credentials — all held by Amazon Cognito, an AWS identity service. We never see or

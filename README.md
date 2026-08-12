@@ -9,22 +9,23 @@ not open for signups.
 ## What it does
 
 Once you connect your Öura account, Cornerstone Health checks in once a day and records a
-short summary of that day:
+summary of that day. Today that is:
 
 - Readiness score
 - Sleep score
 - HRV balance
 - Resting heart rate
 
-That's it. It reads those daily summaries and nothing else.
+The app is also authorised for heart rate, workouts, sessions, SpO2, stress, heart health and
+tags, which back further dashboard views as they are built. Öura shows you the full list on the
+consent screen before you approve anything.
 
 ## What it doesn't do
 
 - It doesn't sell, share, or transmit your data to any third party.
 - It doesn't run ads, analytics, or tracking.
 - It doesn't write anything back to your Öura account — access is read-only.
-- It doesn't read your workouts, tags, SpO2, stress, heart-health, or ring-configuration data.
-  Those permissions are deliberately not requested.
+- It doesn't request your Öura email address or your ring configuration.
 
 ## How your Öura account is connected
 
